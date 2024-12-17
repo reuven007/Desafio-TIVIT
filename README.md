@@ -30,3 +30,8 @@ E para rodar o projeto usar:
 ```
 uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
+
+# Testando via POSTMAN
+Importe o arquivo tivit_teste_collection.json que estará presente na raiz do projeto no postman.
+Antes de executar as requisições para /user deverá rodar o request de nome 'token user' para gerar um token válido. Após isso poderá rodar o endpoint /user.
+O mesmo se dará para o endpoint /admin, sendo que deverá rodar o request de nome 'token admin'.
