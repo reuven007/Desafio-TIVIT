@@ -1,0 +1,21 @@
+.vscode
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+# Ignorar arquivos .pyc (arquivos compilados do Python)
+*.pyc
+__pycache__/
+
+# Ignorar o diretório do ambiente virtual
+venv/
+
+# Ignorar o arquivo .env (que pode conter credenciais sensíveis)
+.env
+
+# Ignorar arquivos específicos de IDEs ou editores (exemplo: VSCode)
+.vscode/
+.idea/
+
+# Outros arquivos ou pastas que você quer ignorar...
